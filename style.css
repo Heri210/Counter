@@ -1,0 +1,59 @@
+
+body {
+    background-color: #C2D2C7;
+}
+
+
+.counter {    
+  height: 80vh;
+  color: floralwhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 0;
+  
+}
+
+.h1 {
+    
+    font-family: 'Tilt Prism', cursive;
+    font-size: 4em; 
+    padding: 14px 0;
+    color: #2E4053;
+}
+
+.counter_div {
+   font-family: 'Oswald';
+   padding: 5px 35px;
+}
+
+.p{
+   text-align: center;
+   font-size: 8em;
+   margin: 0px 10px;
+   color: #273746 ;
+}
+
+.boton {
+    color: #000 ;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: none;
+    border-bottom: 2px solid #FBDC81;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-shadow: -1px -1px #7F8C8D;
+    transition: all .5s ease;   
+}
+
+.boton:hover {
+    background-color: #17202A;
+    color: aliceblue;
+}
+
